@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Rivera — Product Designer &amp; Frontend Developer</title>
+  <meta name="description" content="Portfolio of Alex Rivera, a product designer and frontend developer building accessible, fast interfaces for product teams.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">Alex<span>.</span>Rivera</a>
+
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-hidden="true" tabindex="-1">
+      <label class="nav-btn" for="nav-toggle" aria-label="Toggle navigation">
+        <span class="nav-btn-bar"></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#stack">Stack</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-sm" href="#contact">Hire me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <p class="eyebrow">Available for freelance &amp; full-time roles</p>
+        <h1>I design and build interfaces that stay <em>fast</em> and <em>clear</em>.</h1>
+        <p class="lede">
+          Seven years turning fuzzy product problems into shipped, accessible UI — from design systems
+          and component libraries to the last pixel of a pricing page.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#work">View selected work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <dl class="hero-stats">
+          <div>
+            <dt>Years shipping</dt>
+            <dd>7</dd>
+          </div>
+          <div>
+            <dt>Products launched</dt>
+            <dd>23</dd>
+          </div>
+          <div>
+            <dt>Lighthouse avg.</dt>
+            <dd>98</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="container">
+        <header class="section-head">
+          <h2>Selected work</h2>
+          <p>A few projects I'm happy to talk about in detail.</p>
+        </header>
+
+        <div class="grid projects">
+          <article class="card project">
+            <div class="project-media theme-a" aria-hidden="true"><span>Northwind</span></div>
+            <div class="project-body">
+              <p class="tag">Design system · 2025</p>
+              <h3>Northwind Design System</h3>
+              <p>
+                A 60-component library with tokens for theme, density, and motion.
+                Cut UI defects by 38% across four product teams in the first quarter.
+              </p>
+              <ul class="chips">
+                <li>TypeScript</li>
+                <li>Storybook</li>
+                <li>Figma</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-media theme-b" aria-hidden="true"><span>Ledgerly</span></div>
+            <div class="project-body">
+              <p class="tag">Fintech · 2024</p>
+              <h3>Ledgerly Onboarding</h3>
+              <p>
+                Redesigned KYC flow with progressive disclosure. Activation rate moved
+                from 54% to 81% after a two-week experiment cycle.
+              </p>
+              <ul class="chips">
+                <li>React</li>
+                <li>A/B testing</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-media theme-c" aria-hidden="true"><span>Tidepool</span></div>
+            <div class="project-body">
+              <p class="tag">Developer tool · 2024</p>
+              <h3>Tidepool Docs Site</h3>
+              <p>
+                Static documentation for a time-series database. 100/100 Lighthouse
+                across mobile and desktop, with search that works offline.
+              </p>
+              <ul class="chips">
+                <li>Astro</li>
+                <li>MDX</li>
+                <li>Algolia</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-media theme-d" aria-hidden="true"><span>Halcyon</span></div>
+            <div class="project-body">
+              <p class="tag">E-commerce · 2023</p>
+              <h3>Halcyon Storefront</h3>
+              <p>
+                Headless storefront migration for a furniture brand. Checkout is now
+                three steps and fully keyboard navigable.
+              </p>
+              <ul class="chips">
+                <li>Next.js</li>
+                <li>Stripe</li>
+                <li>Sanity</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about">
+      <div class="container about-inner">
+        <div>
+          <header class="section-head">
+            <h2>About me</h2>
+          </header>
+          <p>
+            I started out as a graphic designer, learned to code so I could stop handing off
+            static mockups, and never went back. Today I sit between design and engineering —
+            comfortable in Figma, comfortable in a terminal, happiest shipping.
+          </p>
+          <p>
+            I care about semantic markup, keyboard-first interaction, and interfaces that
+            degrade gracefully on a slow connection. Currently based in Lisbon, working with
+            teams in CET and EST.
+          </p>
+          <a class="btn btn-ghost" href="#contact">Let's talk</a>
+        </div>
+
+        <div class="panel">
+          <h3>Currently</h3>
+          <ul class="facts">
+            <li><span>Role</span> Senior Frontend Engineer, Northwind</li>
+            <li><span>Focus</span> Design systems, a11y, perf budgets</li>
+            <li><span>Speaking</span> CSS Day Lisbon, 2024</li>
+            <li><span>Writing</span> Notes on interface craft</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <div class="container">
+        <header class="section-head">
+          <h2>Stack &amp; tools</h2>
+          <p>What I reach for by default. Everything else is negotiable.</p>
+        </header>
+
+        <div class="grid stack">
+          <article class="card">
+            <h3>Languages</h3>
+            <ul class="chips">
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Python</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Frameworks</h3>
+            <ul class="chips">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Astro</li>
+              <li>Svelte</li>
+              <li>Node</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Craft</h3>
+            <ul class="chips">
+              <li>Figma</li>
+              <li>Storybook</li>
+              <li>Playwright</li>
+              <li>Lighthouse CI</li>
+              <li>axe</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container contact-inner">
+        <h2>Have a project in mind?</h2>
+        <p class="lede">
+          I take on two to three engagements at a time. Tell me what you're building and
+          when you need it live.
+        </p>
+        <div class="hero-actions center">
+          <a class="btn" href="mailto:hello@alexrivera.dev">hello@alexrivera.dev</a>
+          <a class="btn btn-ghost" href="#top">Back to top</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Alex Rivera. Built by hand with HTML and CSS.</p>
+      <ul class="social">
+        <li><a href="#top">GitHub</a></li>
+        <li><a href="#top">LinkedIn</a></li>
+        <li><a href="#top">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
